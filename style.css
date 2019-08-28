@@ -4,7 +4,7 @@ h1 {
 	font-family: nunito;
 	font-size: 25px;
 	font-weight: bold;
-  line-height: 25px;
+	line-height: 25px;
 }
 
 .h1-contact {
@@ -18,7 +18,7 @@ h1 span {
 h2 {
 	font-family: nunito;
 	font-size: 20px;
-  font-style: normal;
+	font-style: normal;
 	line-height: 25px;
 }
 
@@ -30,8 +30,8 @@ h2 {
 	font-size: 12px;
 	font-weight: normal;
 	margin: 0px;
-  text-align: left;
-  width: 250px;
+	text-align: left;
+	width: 250px;
 }
 
 h3 {
@@ -57,15 +57,15 @@ h3 {
 }
 
 .Callout {
-  color: #000000;
-  text-align: left;
+	color: #000000;
+	text-align: left;
 	width: 80%;
 }
 
 .graph-text {
-  align-items: center;
-  display: flex;
-  height: 80%;
+	align-items: center;
+	display: flex;
+	height: 80%;
 	justify-content: center;
 }
 
@@ -74,45 +74,45 @@ h4 {
 	font-size: 13px;
 	font-style: bold;
 	margin-top: 40px;
-  text-align: right;
-  width: 120px;
+	text-align: right;
+	width: 120px;
 }
 
 p {
-  color: #000000;
-  font-family: "Exo 2";
+	color: #000000;
+	font-family: "Exo 2";
 	font-size: 15px;
 	font-style: normal;
 	text-align: left;
-  line-height: 20px;
+	line-height: 20px;
 	margin: 10px;
 	width: 80%;
 }
 
 .list {
-  color: #000000;
-  font-weight: bold;
+	color: #000000;
+	font-weight: bold;
 	font-family: "Exo 2";
 	font-size: 12px;
 	line-height: 16px;
 	margin-left: 5px;
-  text-align: left;
+	text-align: left;
 	width: 250px;
 }
 
 /*flex containers*/
 
 .two-column-container {
-  display: flex;
-  flex-direction: row;
-  flex: 1;
-  padding-top: 10px;
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
 .four-column-container {
 	align-items: center;
-  display: flex;
+	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	flex: 1 0 auto;
@@ -124,43 +124,43 @@ p {
 
 .arrow {
 	height: 15px;
-  margin-top: 20px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 15px;
 }
 
 .button {
-  background: #FFCDCD;
+	background: #FFCDCD;
 	border-radius: 5px;
-  color: #7D0343;
-  display: block;
+	color: #7D0343;
+	display: block;
 	font-family: nunito;
 	font-weight: bold;
 	font-size: 20px;
 	height: 40px;
-  margin-top: 10px;
+	margin-top: 10px;
 	margin-bottom: 20px;
-  padding-top: 15px;
-  text-align: center;
-  transition: all 0.3s ease 0s;
-  width: 200px;
+	padding-top: 15px;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	width: 200px;
 }
 
 .button-alt {
-  background: #ffffff;
+	background: #ffffff;
 	border-radius: 5px;
-  color: #7D0343;
-  display: block;
+	color: #7D0343;
+	display: block;
 	font-family: nunito;
 	font-weight: bold;
 	font-size: 20px;
 	height: 40px;
-  margin-top: 10px;
+	margin-top: 10px;
 	margin-bottom: 20px;
-  padding-top: 15px;
-  text-align: center;
-  transition: all 0.3s ease 0s;
-  width: 200px;
+	padding-top: 15px;
+	text-align: center;
+	transition: all 0.3s ease 0s;
+	width: 200px;
 }
 
 .button:hover {
@@ -176,36 +176,36 @@ p {
 /*Header content*/
 
 #header {
-  align-items: center;
-  background-color: #EC8A8A;
-  display: flex;
+	align-items: center;
+	background-color: #EC8A8A;
+	display: flex;
 	flex: 1;
-  height: 60px;
+	height: 60px;
 	justify-content: space-between;
-  overflow: hidden;
+	overflow: hidden;
 	position: fixed;
-  top: 0;
-  width: 100%;
+	top: 0;
+	width: 100%;
 	z-index: 99;
 }
 
 #face {
 	height: 50px;
-  margin: 10px;
+	margin: 10px;
 	width: 50px;
 }
 
 #menu {
 	height: 50px;
-  justify-content: center;
+	justify-content: center;
 	margin: 10px;
-  width: 50px;
+	width: 50px;
 }
 
 .menu-icon {
 	filter: invert(1);
-  height: 50px;
-  width: 50px;
+	height: 50px;
+	width: 50px;
 }
 
 /*Big Head display*/
@@ -214,7 +214,7 @@ p {
 	height: 120px;
 	margin: 10px;
 	padding: 10px;
-  width: 120px;
+	width: 120px;
 }
 
 /*Indicates the background colors*/
@@ -222,50 +222,50 @@ p {
 body {
 	background-color: #ec8a8a;
 	color: #7d0343;
-  width: 100%;
+	width: 100%;
 }
 
 .body-alt {
-  align-items: center;
+	align-items: center;
 	background-color: #ffffff;
 	color: #7d0343;
 	display: flex;
-  flex-direction: column;
+	flex-direction: column;
 	position: relative;
-  width: 100%;
+	width: 100%;
 }
 
 .body-alt-other {
-  align-items: center;
+	align-items: center;
 	background-color: #FFcdcd;
 	color: #7d0343;
 	display: flex;
-  flex-direction: column;
+	flex-direction: column;
 	position: relative;
-  width: 100%;
+	width: 100%;
 }
 
 /*BODY this indicates the content of the body and centers it as a column*/
 
 #content {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  padding-top: 100px;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	padding-top: 100px;
 }
 
 /*Indicates speech bubble behavior - After and Before behavior will be below their respective classes*/
 
 .bubble-part-top {
-  align-items: center;
-  background: #ffffff;
-  box-sizing: border-box;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  text-align: center;
-  width: 280px;
+	align-items: center;
+	background: #ffffff;
+	box-sizing: border-box;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	text-align: center;
+	width: 280px;
 }
 
 .bubble-part-top:after {
@@ -286,60 +286,59 @@ body {
 /**/
 
 .bubble-part-bottom {
-  align-items: center;
+	align-items: center;
 	background: #ffffff;
 	box-sizing: border-box;
 	border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 20px;
-  position: relative;
+	position: relative;
 	text-align: center;
 	width: 280px;
 }
 
 .bubble-part-bottom:after {
-  border: 21px solid transparent;
+	border: 21px solid transparent;
 	border-bottom-color: #ffffff;
 	border-top: 0;
 	border-left: 0;
-  content: '';
-  height: 0;
+	content: '';
+	height: 0;
 	left: 70%;
-  margin-left: -10.5px;
+	margin-left: -10.5px;
 	margin-top: -21px;
 	position: absolute;
 	top: 0;
 	width: 0;
-
 }
 
 /**/
 
 .bubble-part-contact {
-  align-items: center;
+	align-items: center;
 	background: #ffffff;
 	box-sizing: border-box;
 	border-radius: 10px;
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 20px;
-  position: relative;
+	position: relative;
 	text-align: center;
 	width: 280px;
 }
 
 .bubble-part-contact:after {
-  border: 21px solid transparent;
-  border-bottom-color: #ffffff;
-  border-top: 0;
-  border-right: 0;
-  content: '';
-  height: 0;
+	border: 21px solid transparent;
+	border-bottom-color: #ffffff;
+	border-top: 0;
+	border-right: 0;
+	content: '';
+	height: 0;
 	left: 30%;
-  margin-left: -10.5px;
-  margin-top: -21px;
-  position: absolute;
+	margin-left: -10.5px;
+	margin-top: -21px;
+	position: absolute;
 	top: 0;
 	width: 0;
 }
@@ -347,23 +346,23 @@ body {
 /**/
 
 .bubble-full {
-  align-items: center;
-  background: #FFF0F0;
+	align-items: center;
+	background: #FFF0F0;
 	box-sizing: border-box;
 	border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
 	margin-bottom: 50px;
 	position: relative;
-  text-align: center;
+	text-align: center;
 	width: 100%;
 }
 
 /**/
 
 .bubble-full:after {
-  content: '';
+	content: '';
 	position: absolute;
 	top: 0;
 	left: 10%;
@@ -380,16 +379,16 @@ body {
 /**/
 
 .bubble-full-white {
-  align-items: center;
-  background: #ffffff;
+	align-items: center;
+	background: #ffffff;
 	box-sizing: border-box;
 	border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
 	margin-bottom: 50px;
 	position: relative;
-  text-align: center;
+	text-align: center;
 	width: 100%;
 }
 
@@ -411,47 +410,47 @@ body {
 /*class denoted -accent are for case studies*/
 
 .bubble-full-white-accent {
-  align-items: center;
-  background: #ffffff;
-  box-sizing: border-box;
-  border-radius: 10px 10px 0px 0px;
-  display: flex;
-  flex-direction: column;
-  margin-top: 10px;
-  padding-bottom: 100px;
+	align-items: center;
+	background: #ffffff;
+	box-sizing: border-box;
+	border-radius: 10px 10px 0px 0px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+	padding-bottom: 100px;
 	position: relative;
 	text-align: center;
 	width: 100%;
 }
 
 .bubble-full-white-accent:after {
-  border: 21px solid transparent;
+	border: 21px solid transparent;
 	border-bottom-color: #ffffff;
 	border-top: 0;
 	border-left: 0;
-  content: '';
-  height: 0;
-  left: 10%;
+	content: '';
+	height: 0;
+	left: 10%;
 	margin-left: -10.5px;
 	margin-top: -21px;
 	position: absolute;
 	top: 0;
-  width: 0;
+	width: 0;
 }
 
 /**/
 
 .bubble-full-pink-accent {
-  align-items: center;
-  background: #EC8A8A;
-  border-radius: 0px 0px 10px 10px;
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 50px;
-  padding-top: 10px;
+	align-items: center;
+	background: #EC8A8A;
+	border-radius: 0px 0px 10px 10px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+	padding-top: 10px;
 	position: relative;
-  text-align: center;
+	text-align: center;
 	width: 100%;
 }
 
@@ -462,10 +461,10 @@ body {
 	background-size: 100% 100%;
 	content: '';
 	height: 10vw;
-  left: 0;
-  position: absolute;
+	left: 0;
+	position: absolute;
 	pointer-events: none;
-  right: 0;
+	right: 0;
 	top: -9.9vw;
 	width: 100%;
 	z-index: 1;
@@ -476,17 +475,17 @@ body {
 /*Speech bubble navs*/
 
 .nav {
-  left: 10px;
+	left: 10px;
 	position: absolute;
 	top: 20px;
 }
 
 .nav-horizontal {
-  	align-items: center;
-    display: flex;
-    height: 60px;
+	align-items: center;
+	display: flex;
+	height: 60px;
 	flex: 1;
-justify-content: space-between;
+	justify-content: space-between;
 	margin-top: 10px;
 	margin-bottom: 20px;
 }
@@ -496,7 +495,7 @@ justify-content: space-between;
 	border-radius: 50%;
 	height: 5px;
 	margin: 2px;
-  width: 5px;
+	width: 5px;
 }
 
 .circle.filled {
@@ -506,72 +505,72 @@ justify-content: space-between;
 /*Specialized containers for speech bubbles*/
 
 .process-container {
-  height: 250px;
-  justify-content: flex-start;
-  width: 130px;
+	height: 250px;
+	justify-content: flex-start;
+	width: 130px;
 }
 
 .p-list {
-  color: #000000;
-  font-family: "Exo 2";
+	color: #000000;
+	font-family: "Exo 2";
 	font-size: 10px;
 	justify-content: center;
 	text-align: left;
 }
 
 .small-case-txt {
-  display: inline-block;
+	display: inline-block;
 	height: 140px;
-  line-height: 20px;
+	line-height: 20px;
 	text-align: right;
-  width: 140px;
+	width: 140px;
 }
 
 .small-case-img {
-  height: 140px;
-  width: 140px;
+	height: 140px;
+	width: 140px;
 }
 
 .case-img {
 	height: auto;
 	margin-top: 5px;
-  max-width: 80%;
+	max-width: 80%;
 }
 
 .case-img-head {
-  border-radius: 5px;
-  height: auto;
-  margin-top: 5px;
-  max-width: 80%;
+	border-radius: 5px;
+	height: auto;
+	margin-top: 5px;
+	max-width: 80%;
 }
 
 .part-case-img {
 	height: 150px;
 	margin: 20px;
-  width: 220px;
+	width: 220px;
 }
 
 .process-img {
 	height: 130px;
 	margin: 5px;
-  width: 130px;
+	width: 130px;
 }
 
 .selfie {
-  border-radius: 50%;
+	border-radius: 50%;
 	border: 5px solid white;
 	height: 200px;
 	margin: 40px;
-  width: 200px;
+	width: 200px;
 }
 
 /*Footer*/
 
 #footer {
-  align-items: center;
+	align-items: center;
 	background: #EC8A8A;
 	display: flex;
-  height: 60px;
+	height: 60px;
 	justify-content: space-evenly;
 }
 
@@ -580,5 +579,5 @@ justify-content: space-between;
 	height: 40px;
 	margin-left: 5px;
 	margin-right: 5px;
-  width: 40px;
+	width: 40px;
 }
