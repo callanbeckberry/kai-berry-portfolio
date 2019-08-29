@@ -189,8 +189,7 @@ p {
 	width: 100%;
 	z-index: 99;
 */
-	align-items: center;
-    background-image: url('/images/frame/mobile-header.svg') top center no-repeat;
+		align-items: center;
 		display: flex;
 		flex: 1;
 		background-size: auto 100px;
