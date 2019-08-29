@@ -4,7 +4,7 @@ h1 {
 	font-family: nunito;
 	font-size: 25px;
 	font-weight: bold;
-	line-height: 25px;
+  line-height: 25px;
 }
 
 .h1-contact {
@@ -177,16 +177,31 @@ p {
 
 #header {
 	align-items: center;
-	background-color: #EC8A8A;
+	background-color: #FFCDCD;
 	display: flex;
 	flex: 1;
 	height: 60px;
 	justify-content: space-between;
 	overflow: hidden;
-	position: fixed;
+	position: relative;
 	top: 0;
 	width: 100%;
 	z-index: 99;
+}
+
+#header:after{
+	content:"";
+	position:absolute;
+	height:20px;
+	background: url(/images/frame/mobile-header.svg);
+	background-size: 100%;
+}
+
+svg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
 }
 
 #face {
