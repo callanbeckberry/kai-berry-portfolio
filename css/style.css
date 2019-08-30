@@ -1,10 +1,10 @@
 /*typography*/
 
 h1 {
-	font-family: nunito;
+	font-family: 'Nunito', sans-serif;
 	font-size: 25px;
 	font-weight: bold;
-	line-height: 25px;
+	line-height: 1em;
 }
 
 .h1-contact {
@@ -16,10 +16,10 @@ h1 span {
 }
 
 h2 {
-	font-family: nunito;
+	font-family: 'Nunito', sans-serif;
 	font-size: 20px;
 	font-style: normal;
-	line-height: 25px;
+	line-height: 1.2em;
 }
 
 .Subdivision {
@@ -44,7 +44,7 @@ h3 {
 
 .h3-contact {
 	font-size: 20px;
-	font-style: bold;
+	font-weight: bold;
 }
 
 .mini-bio {
@@ -72,7 +72,7 @@ h3 {
 h4 {
 	font-family: "Exo 2";
 	font-size: 13px;
-	font-style: bold;
+	font-weight: bold;
 	margin-top: 40px;
 	text-align: right;
 	width: 120px;
@@ -84,7 +84,7 @@ p {
 	font-size: 15px;
 	font-style: normal;
 	text-align: left;
-	line-height: 20px;
+	line-height: 1.3em;
 	margin: 10px;
 	width: 80%;
 }
@@ -94,7 +94,7 @@ p {
 	font-weight: bold;
 	font-family: "Exo 2";
 	font-size: 12px;
-	line-height: 16px;
+	line-height: 1.25em;
 	margin-left: 5px;
 	text-align: left;
 	width: 250px;
@@ -123,6 +123,8 @@ p {
 /*buttons*/
 
 .arrow {
+	background-image: url(images/arrow.png);
+	background-size: contain;
 	height: 15px;
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -134,7 +136,7 @@ p {
 	border-radius: 5px;
 	color: #7D0343;
 	display: block;
-	font-family: nunito;
+	font-family: 'Nunito', sans-serif;
 	font-weight: bold;
 	font-size: 20px;
 	height: 40px;
@@ -142,6 +144,7 @@ p {
 	margin-bottom: 20px;
 	padding-top: 15px;
 	text-align: center;
+	text-decoration: none;
 	transition: all 0.3s ease 0s;
 	width: 200px;
 }
@@ -151,7 +154,7 @@ p {
 	border-radius: 5px;
 	color: #7D0343;
 	display: block;
-	font-family: nunito;
+	font-family: 'Nunito', sans-serif;
 	font-weight: bold;
 	font-size: 20px;
 	height: 40px;
@@ -159,6 +162,7 @@ p {
 	margin-bottom: 20px;
 	padding-top: 15px;
 	text-align: center;
+	text-decoration: none;
 	transition: all 0.3s ease 0s;
 	width: 200px;
 }
@@ -521,7 +525,7 @@ body {
 .small-case-txt {
 	display: inline-block;
 	height: 140px;
-	line-height: 20px;
+	line-height: 1.25em;
 	text-align: right;
 	width: 140px;
 }
