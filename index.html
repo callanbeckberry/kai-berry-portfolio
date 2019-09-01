@@ -7,13 +7,14 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" >
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap" >
+    <script src="index.js"></script>
   </head>
 
   <body>
-    <header id="header">
+    <nav id="main-nav">
         <a href="index.html"><img id="face" alt="logo" src="images/kai-clear.png"/></a>
         <a href=""><img class="menu-icon" alt="menu" src="images/bars-solid.svg"/></a>
-    </header>
+    </nav>
 
     <main>
       <section id="content">
@@ -29,23 +30,7 @@
             I’m a UX Designer & Product Manager based in Seattle focusing on accessible web experiences, SaaS products, and cool things.
           </h3>
           <h3 class="brag"> I currently work for Google.</h3>
-        </div>
-
-        <a href=""><div class="arrow"></div></a>
-
-        <div class="big-face">
-          <img id="big-face" alt="Kai's Face" src="images/kai-pale.png"/>
-        </div>
-        <div class="bubble-part-bottom">
-          <h2>i'm a pretty cool guy</h2>
-          <h3 class= "mini-bio">
-I’ve been drawing, creating, and product managing for multiple awesome companies doing multiple awesome things.
-</h3><h3 class= "mini-bio">
-I’ve won multiple awards and scholarships for my in illustration, design, and editorial work.
-</h3><h3 class= "mini-bio">
-I’m the middle of 5 siblings, and it has affected my personality considerably.
-</h3>
-          <a class="button" href="">learn more</a>
+          <a class="button" href="">more about me</a>
         </div>
 
         <a href=""><div class="arrow"></div></a>
@@ -64,21 +49,24 @@ I’m the middle of 5 siblings, and it has affected my personality considerably.
             </div>
 
             <h1>Trainers <span class="date">| 2019</span> </h1>
-            <img class="case-img" alt="Image Description" src=""/>
+              <div class="case-content">
+              <div class="case-right">
+                <img class="case-img" alt="Image Description" src="images/kai-pale.png"/>
+              </div>
+              <div class="case-left">
+                <h2 class="Subdivision">
+                  Marathon and race training made easy and fun
+                </h2>
 
-            <h2 class="Subdivision">
-              Marathon and race training made easy and fun
-            </h2>
-
-            <p>
-              Trainiers aims to take the pain out of training for a race, and support beginners from tieing their laces to finishline.
-              <br><br>
-              With Trainers you can create a training itinerary, log runs, track training progress, and receive inspirational messages.
-            </p>
-
+                <p class="case-p">
+                  Trainiers aims to take the pain out of training for a race, and support beginners from tieing their laces to finishline.
+                  <br><br>
+                  With Trainers you can create a training itinerary, log runs, track training progress, and receive inspirational messages.
+                </p>
+            </div>
+          </div>
             <a class="button" href="project.html">view case study</a>
           </div>
-
           <!-- Therefore Case study -->
 
           <div class="bubble-full">
@@ -162,9 +150,10 @@ I’m the middle of 5 siblings, and it has affected my personality considerably.
                  A professional website for Meredith Crandell, Seattle-based event & wedding planner
                 </p>
                 <a class="button" href="project.html">view</a>
+              <a href=""><div class="arrow"></div></a>
           </div>
 
-          <a href=""><div class="arrow"></div></a>
+
 
        </section>
          <!-- Body Alt ends here (case studies) -->
@@ -176,26 +165,28 @@ I’m the middle of 5 siblings, and it has affected my personality considerably.
            Let's make your ideas reality
             </h3>
                 <div class="four-column-container">
-                  <div class="process-container">
-                  <img class="process-img" alt= "research" src="images/placeholder.png">
-                  <ul>
-                    <li class="p-list">Define problem & scope</li>
-                    <li class="p-list">Survey & interview users</li>
-                    <li class="p-list">User personas</li>
-                    <li class="p-list">Competitive analysis</li>
-                  </ul>
-                  </div>
+                  <div class="left">
+                    <div class="process-container">
+                    <img class="process-img" alt= "research" src="images/placeholder.png">
+                    <ul>
+                      <li class="p-list">Define problem & scope</li>
+                      <li class="p-list">Survey & interview users</li>
+                      <li class="p-list">User personas</li>
+                      <li class="p-list">Competitive analysis</li>
+                    </ul>
+                    </div>
 
-                  <div class="process-container">
-                  <img class="process-img" alt= "design" src="images/placeholder.png">
-                  <ul>
-                    <li class="p-list">Visual branding</li>
-                    <li class="p-list">Preference testing</li>
-                    <li class="p-list">High fidelity mocks</li>
-                    <li class="p-list">Testing & iterating</li>
-                  </ul>
-                  </div>
-
+                    <div class="process-container">
+                    <img class="process-img" alt= "design" src="images/placeholder.png">
+                    <ul>
+                      <li class="p-list">Visual branding</li>
+                      <li class="p-list">Preference testing</li>
+                      <li class="p-list">High fidelity mocks</li>
+                      <li class="p-list">Testing & iterating</li>
+                    </ul>
+                    </div>
+                </div>
+                <div class="right">
                       <div class="process-container">
                       <img class="process-img" alt= "refine" src="images/placeholder.png">
                       <ul>
@@ -217,7 +208,8 @@ I’m the middle of 5 siblings, and it has affected my personality considerably.
                           </div>
                     </div>
                   </div>
-                  <a href=""><div class="arrow"></div></a>
+                    <a href=""><div class="arrow"></div></a>
+                  </div>
       </section>
 
       <!-- Body Alt Other ends here (process) -->
@@ -241,10 +233,8 @@ a talented and detail oriented product manager, and a scrappy team player always
               <a href=""><div class="circle"></div></a>
               <a href=""><div class="circle"></div></a>
             </div>
+            <a href=""><div class="arrow"></div></a>
           </div>
-
-          <a href=""><div class="arrow"></div></a>
-
       </section>
          <!-- Body Alt ends here (testimonials) -->
          <!-- Body Alt Other starts here (contant)-->
@@ -265,8 +255,9 @@ a talented and detail oriented product manager, and a scrappy team player always
 
      </section> <!-- Content ends here -->
     </main>
+    <section id="scroll-footer"></section>
 
-    <footer id="footer">
+    <footer id="true-footer">
       <a href="https://dribbble.com/kaiberry"><img class="footer-icon" alt="dbbr" src="images/dribbble-brands.svg"/></a>
       <a href="https://github.com/callanbeckberry"><img class="footer-icon" alt="gith" src="images/github-alt-brands.svg"/></a>
       <a href="https://www.instagram.com/mumblecity"><img class="footer-icon" alt="insta" src="images/instagram-brands.svg"/></a>
