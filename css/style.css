@@ -124,8 +124,87 @@ p {
 
 .left, .right{
 	flex-direction: column;
-	width:100%;
 }
+
+/**/
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-container.no-wrap {
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 680px) {
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    background-color: #333333;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+
+@media (max-width: 1200px) {
+    .overlay > .flex-container {
+        flex-direction: column;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .grid-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .details p {
+        width: 100%;
+    }
+}
+
+@media (min-width: 681px) {
+    .one-fourth > p {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 300px;
+        padding: 0 15px;
+    }
+    .overlay > .flex-container > .flex-row {
+        flex-direction: row;
+    }
+    .mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 680px) {
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .flex-row {
+        flex-direction: column;
+    }
+}
+/**/
 
 /*buttons*/
 
@@ -505,21 +584,18 @@ body {
 
 /*Specialized containers for speech bubbles*/
 
-.process-container {
-	display:inline-block;
-	height: 250px;
-	justify-content: flex-start;
-	overflow:hidden;
-	width:130px;
-	border: 1px solid black;
+
+
+.process-container p {
+	width:60%;
+	margin: auto;
 }
 
 .p-list {
 	color: #000000;
 	font-family: "Exo 2";
-	font-size: 10px;
-	justify-content: center;
-	text-align: left;
+	font-size: 15px;
+	text-align:center;
 }
 
 .small-case-txt {
@@ -555,9 +631,8 @@ body {
 }
 
 .process-img {
-	height: 120px;
+	width:95%;
 	margin: 5px;
-	width: 120px;
 }
 
 .selfie {
@@ -614,15 +689,20 @@ body {
   .left,
   .right {
     flex: 1;
-
   }
+	.left div, .right div {
+		width:100%;
+	}
 	.case-content{
 		display: block;
 	}
 	.case-left, .case-right {
-
 	}
-}
+	.process-img{
+			height:150px;
+			width:150px;
+		}
+	}
 
 	/*tablet media query*/
 		@media (min-width: 550px) {
@@ -633,6 +713,10 @@ body {
 				#scroll-footer{
 						background-image: url("../images/frame/tablet-footer.svg");
 					}
+				#big-face {
+					width:140px;
+					height:140px;
+				}
 				.bubble-part-top {
 						width:400px;
 						border-radius: 10px;
@@ -668,6 +752,10 @@ body {
 			#scroll-footer{
 					background-image: url("../images/frame/mobile-footer-big.svg");
 				}
+			#big-face {
+					width:160px;
+					height:160px;
+				}
 			.bubble-part-top {
 					width:600px;
 					border-radius: 10px;
@@ -675,6 +763,9 @@ body {
 			.bubble-part-bottom {
 					width:600px;
 					border-radius: 10px;
+			}
+			p{
+				max-width: 600px;
 			}
 			h1 {
 				font-size: 30px;
@@ -685,7 +776,7 @@ body {
 				line-height: 1.2em;
 			}
 			h3 {
-				font-size:18px;
+				font-size:20px;
 				line-height:1.2em;
 			}
 			.mini-bio {
@@ -694,3 +785,63 @@ body {
 			}
 		}
 /**/
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+}
+
+@media (max-width: 680px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon {
+    width: 150px;
+    height: 150px;
+    background-color: #333333;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin: 10px auto;
+}
+
+
+@media (max-width: 1200px) {
+    .overlay > .flex-container {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 681px) {
+    .one-fourth > p {
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 300px;
+        padding: 0 15px;
+    }
+    .overlay > .flex-container > .flex-row {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 680px) {
+    .icon {
+        width: 100px;
+        height: 100px;
+    }
+    .flex-row {
+        flex-direction: column;
+    }
+}
