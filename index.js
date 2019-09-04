@@ -39,3 +39,11 @@ window.addEventListener('DOMContentLoaded', function() {
     });
 
 })
+
+$(document).ready(function(){
+  $('.nice-things').slick({
+    accessibility:true
+    arrows: false
+    dots: true
+  });
+});

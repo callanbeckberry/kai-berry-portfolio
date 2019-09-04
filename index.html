@@ -3,15 +3,33 @@
   <head>
     <title>Kai Portfolio Homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2&display=swap" >
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito&display=swap" >
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<!--Slick Carousel-->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
     <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/24b3860d2a.js"></script>
   </head>
 
   <body>
+    <!-- Desktop Menu-->
+    <nav id ="feature-nav">
+        <a href="index.html"><img id="face" alt="logo" src="images/kai-pale.png"/></a>
+        <ul>
+          <li><a href="#">about</a></li>
+          <li><a href="#">work</a></li>
+          <li><a href="#">process</a></li>
+          <li><a href="#">testimonials</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+      <!-- Tablet Menu-->
     <nav id="main-nav">
         <a href="index.html"><img id="face" alt="logo" src="images/kai-pale.png"/></a>
         <a href=""><img class="menu-icon" alt="menu" src="images/bars-solid.svg"/></a>
@@ -201,25 +219,43 @@
          <!-- Body Alt starts here (testimonials) -->
       <section class="body-alt">
            <div class="bubble-full">
-            <h1>nice things said about me</h1>
-            <p>
-            “I managed Callan directly for three years, and Callan always brought zeal and energy to the challenges of each day in a start-up environment. He's a brilliant designer,
-a talented and detail oriented product manager, and a scrappy team player always focused on working together to get the job done.”
-            </p>
-            <h2 class="quote">
-             Ryan Sparks
-            </h2>
-            <h2 class="quote">
-             Sales Director, Caviar
-            </h2>
-            <div class="nav-horizontal">
-              <a href=""><div class="circle filled"></div></a>
-              <a href=""><div class="circle"></div></a>
-              <a href=""><div class="circle"></div></a>
-              <a href=""><div class="circle"></div></a>
-            </div>
-            <a href=""><div class="arrow"></div></a>
-          </div>
+             <h1>nice things said about me</h1>
+ <div class="nice-things">
+   <div class="nice-thing">
+     <p>
+       “I managed Callan directly for three years, and Callan always brought zeal and energy to the challenges of
+       each day in a start-up environment. He's a brilliant designer,
+       a talented and detail oriented product manager, and a scrappy team player always focused on working together
+       to get the job done.”
+     </p>
+     <h2 class="quote">
+       Ryan Sparks
+     </h2>
+     <h2 class="quote">
+       Sales Director, Caviar
+     </h2>
+   </div>
+   <div class="nice-thing">
+     <p>"Callan makes the best jokes about dead animals I've ever heard."</p>
+     <h2 class="quote">
+       Hannah Balenda
+     </h2>
+     <h2 class="quote">
+       Bad Boi
+     </h2>
+   </div>
+ </div>
+ <div class="nice-thing">
+   <p>"Callan is my thrid son."</p>
+   <h2 class="quote">
+     Cindee Berry
+   </h2>
+   <h2 class="quote">
+     Mom
+   </h2>
+ </div>
+</div>
+
       </section>
          <!-- Body Alt ends here (testimonials) -->
          <!-- Body Alt Other starts here (contant)-->
@@ -249,5 +285,16 @@ a talented and detail oriented product manager, and a scrappy team player always
       <a href="https://www.linkedin.com/in/callanberry/"><img class="footer-icon" alt="lkin" src="images/linkedin-brands.svg"/></a>
       <a href="https://twitter.com/callanbeckberry"><img class="footer-icon" alt="twtr" src="images/twitter-square-brands.svg"/></a>
     </footer>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+  $(document).ready(function(){
+    $('.nice-things').slick({
+      arrow: false
+      dots: true
+    });
+  });
+</script>
   </body>
 </html>
